@@ -1,0 +1,23 @@
+{
+  "name": "OkayCMS/RESTful-API",
+  "description": "OKAYCMS RESTfull API interface",
+  "license": "BSD-3-Clause",
+  "keywords": ["okaycms", "restfull"],
+  "authors": [
+    {
+      "name": "ALX TH",
+      "email": "therion.kiev@gmail.com"
+    }
+  ],
+  "require": {
+    "slim/slim": "^3.0",
+    "slim/php-view": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Application\\": "src/"
+    }
+  },
+  "scripts": {
+  }
+}
